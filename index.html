@@ -3,13 +3,57 @@
     <head>
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>Stock Counter - Login</title>
+        <title>Stock Locator - Login</title>
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="description" content="">
         <link rel="stylesheet" type="text/css" href="./assets/css/app.css">
         <link rel="icon" type="image/x-icon" href="./assets/images/logo.ico">
     </head>
-    <body>
+    <body class="bg-grey_background select-none">
+        <div class="creator">
+            <a href="">
+                <img class="h-10 w-10" src="./assets/images/profile.jpg" alt="">
+                <figcaption class="text-xs login-text">Developer</figcaption>
+            </a>
+        </div>
+
+        <main class="h-[100vh] w-full flex justify-center items-center">
+
+            <div class="wrapper shadow-body-shadow rounded-2xl overflow-hidden p-8 pt-5">
+
+                <div class="flex flex-col items-center space-y-3">
+
+                    <div class="overflow-hidden rounded-full h-20 w-20 flex items-center justify-center shadow-logo-shadow">
+                        <img class="h-10 w-10" src="./assets/images/logo.png" alt="">
+                    </div>
+
+                    <span>
+                        <h1 class="text-[#5CC3F1] login-text font-bold font-sans text-xl text">Login</h1>
+                    </span>
+                </div>
+    
+                <div class="form mt-6">
+    
+                    <form class="flex flex-col items-center space-y-7 relative" id="myform" action="./assets/home.html" method="" onsubmit="return validate()">
+    
+                        <input class="focus-within:outline-none py-3 px-16 pl-6 bg-grey_background shadow-input-shadow rounded-3xl text-xs placeholder:text-gray-300 focus-within:placeholder:text-gray-700 text-gray-700" type="text" name="Username" id="username" placeholder="Enter Your Username">
+
+                        <input class="focus-within:outline-none py-3 px-16 pl-6 bg-grey_background shadow-input-shadow rounded-3xl text-xs placeholder:text-gray-300 focus-within:placeholder:text-gray-700 text-gray-700" type="password" name="password" id="password" placeholder="Enter Your Password">
+    
+    
+                        <button class="w-fit rounded-2xl shadow-logo-shadow bg-[#5CC3F1] text-white font-bold text-sm px-14 py-2" type="submit" id="submit">Submit</button>
+
+                        <div class="errorOr text-red-300 absolute bottom-[-25px] left-[-20px] text-xs">
+                            
+                        </div>
+    
+                    </form>
+    
+                </div>
+
+            </div>
+            
+        </main>
 
 
 
@@ -23,6 +67,6 @@
 
 
 
-        <script src="" async defer></script>
+        <script src="./assets/js/app.js" async defer></script>
     </body>
 </html>
