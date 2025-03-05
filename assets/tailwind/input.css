@@ -2,6 +2,9 @@
 @tailwind components;
 @tailwind utilities;
 
+
+//Login Page
 .login-text{
     text-shadow: 1px 1px 3px grey;
 }
+

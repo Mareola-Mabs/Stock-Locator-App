@@ -1,8 +1,12 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ["../../*.html"],
+  content: ["../*.html"],
   theme: {
     extend: {
+      screens: {
+        'max-sm': { max: '500px' }, // Custom max-md breakpoint
+      },
+  
       colors: {
         grey_background: "#E8EEF3",
       },

@@ -6,11 +6,51 @@
         <title>Stock Locator - Home</title>
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="description" content="">
-        <link rel="stylesheet" type="text/css" href="./css/app.css">
+        <link rel="stylesheet" type="text/css" href="./css/home.css">
         <link rel="icon" type="image/x-icon" href="./images/logo.ico">
     </head>
     <body>
 
+        <main class="main">
+            <nav class="nav px-2 bg-grey_background py-4 items-center shadow-md flex justify-between w-full">
+                <div class="nav__menu p-1 shadow-md rounded bg-[#F0F0F0] w-fit">
+                    <svg class="text-[#5CC3F1] cursor-pointer" xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 50 50"><path fill="currentColor" d="M10 12h30v4H10zm0 10h30v4H10zm0 10h30v4H10z"/></svg>
+                </div>
+                <div class="nav__text text-[#5CC3F1] p-1 shadow-md rounded bg-[#F0F0F0] px-3 select-none flex flex-col">
+                    <span class="capitalize font-bold font-sans text-3xl">Stock Locator</span>
+                    <span class="text-[0.4rem] flex self-end text-red-500">Registered to Microchips Sys Ltd.</span>
+                </div>
+            </nav>
+
+            <nav class="w-full flex justify-between md:grid md:grid-cols-2 py-4 pr-2 items-center gap-1">
+                <div>
+                    <div class="flex bg-grey_background w-fit p-2 px-3 ml-2 rounded-md items-center gap-2">
+                        <span class="p-1 shadow-md rounded bg-[#5cc3f1] w-fit">
+                            <svg class="cursor-pointer text-white font-bold" id="searchBtn" xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 50 50"><path fill="currentColor" d="M23 36c-7.2 0-13-5.8-13-13s5.8-13 13-13s13 5.8 13 13s-5.8 13-13 13m0-24c-6.1 0-11 4.9-11 11s4.9 11 11 11s11-4.9 11-11s-4.9-11-11-11"/><path fill="currentColor" d="m32.682 31.267l8.98 8.98l-1.414 1.414l-8.98-8.98z"/></svg>
+                        </span>
+                        <span>
+                            <input class="p-1 rounded-sm focus-within:outline w-0 focus-within:outline-[#5cc3f1]" placeholder="Search Items" type="search" name="search" id="searchInput">
+                        </span>
+                    </div>
+                </div>
+                <div class="capitalize select-none">
+                    <section class="flex bg-[#5CC3F1] w-fit p-2 rounded-md items-center shadow-md">
+                        <span class="text-white font-bold font-sans text-xl">stock items</span>
+                        <span>
+                            <svg class="text-white" xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M4.5 7h15M7 12h10m-7 5h4"/></svg>
+                        </span>
+                    </section>
+                </div>
+            </nav>
+
+
+
+
+
+            <main>
+
+            </main>
+        </main>
 
 
 
@@ -26,6 +66,7 @@
 
 
 
-        <script src="" async defer></script>
+
+        <script src="./js/search.js" async defer></script>
     </body>
 </html>
