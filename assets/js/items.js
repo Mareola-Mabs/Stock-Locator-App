@@ -1,11 +1,11 @@
-const stockImg = ["./images/stock000.jpg", "./images/stock001.jpg", "./images/stock002.jpg", "./images/blank.png", "./images/blank.png", "./images/blank.png", "./images/blank.png", "./images/blank.png", "./images/blank.png", "./images/blank.png", "./images/blank.png"]
+const stockImg = ["./images/stock000.jpg", "./images/stock001.jpg", "./images/stock002.jpg", "./images/blank.png", "./images/blank.png", "./images/blank.png", "./images/blank.png", "./images/blank.png", "./images/blank.png", "./images/blank.png", "./images/blank.png", "./images/blank.png"]
 console.log(stockImg.length)
 
-const stockName = ["USB to Serial", "VGA to HDMI", "USB to type C", "USB to Serial", "VGA to HDMI", "USB to type C", "USB to Serial", "VGA to HDMI", "USB to type C", "USB to Serial", "VGA to HDMI"]
+const stockName = ["USB to Serial", "VGA to HDMI", "USB to type C", "USB to Serial", "VGA to HDMI", "USB to type C", "USB to Serial", "VGA to HDMI", "USB to type C", "USB to Serial", "VGA to HDMI", "Rj45 Connector"]
 console.log(stockName.length)
 
 
-const stockPrice = ["N20,000", "N2,000", "N3,000", "N5000", "22,000", "50,000", "10,000", "N2,000", "N3,000", "N5000", "N22,000"]
+const stockPrice = ["N20,000", "N2,000", "N3,000", "N5000", "N22,000", "N50,000", "N10,000", "N2,000", "N3,000", "N5000", "N22,000", "N3,500"]
 console.log(stockPrice.length)
 
 const main__container = document.querySelector("main.main__container")
